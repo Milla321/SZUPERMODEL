@@ -1,0 +1,97 @@
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+html{
+    font-size: 12px;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgba(185, 179, 97);
+}
+.container{
+    max-width: 900px;
+    margin:0 auto;
+}
+.header{
+    height: 200px;
+    background: url('../img/logo.jpg');
+    color:white;
+    font-size: 2rem;
+    padding: 10px 0 0 210px;
+}
+.navigation{
+    background-color: rgb(201, 85, 56)
+}
+.navigation ul{
+    list-style-type: none;
+}
+.navigation ul::after, .hasab::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+.navigation ul li{
+    width:12%;
+    float:left;
+    text-align: center;
+}
+.navigation ul li a{
+    color:white;
+    text-decoration: none;
+    padding:15px;
+    display:block;
+    text-transform: uppercase;
+}
+.navigation ul li a:hover{
+    background-color: #976a45;
+    text-decoration: underline;
+}
+.content{
+    background: rgb(248, 246, 246);
+}
+}
+.content .hasab img{
+    max-width: 50%;
+}
+.content .hasab p{
+    float:left;
+    max-width:50%;
+    font-size:.8rem;
+    padding:20px;
+    line-height: 1.8;
+    text-align: justify;
+}
+.content .hasab p{
+    float:right;
+    max-width:50%;
+    font-size:.8rem;
+    padding:20px;
+    line-height: 1.8;
+    text-align: justify;
+}
+.content .hasab p{
+    float:left;
+    max-width:50%;
+    font-size:.8rem;
+    padding:20px;
+    line-height: 1.8;
+    text-align: justify;
+}    
+
+.kep1{
+    float:left;
+}
+.kep2{
+    float:right;
+}
+.footer{
+    background: rgb(216, 191, 108);
+    height: 50px;
+    font-size: .8rem;
+    padding-top: 10px;
+    text-align: center;
+    color:rgb(98, 97, 97)
+}
