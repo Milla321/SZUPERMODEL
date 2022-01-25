@@ -3,7 +3,7 @@
 SZUPERMODEL
 navigation:
                 Menűpont1
-                Menűpont2
+           Menűpont2
                 Menűpont3
                 Menűpont4
                 Menűpont5
